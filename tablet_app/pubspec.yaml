@@ -1,0 +1,92 @@
+name: projector_wall_controller
+description: "Tablet controller for a dual-screen immersive projection system (wall + scanner tunnel)."
+publish_to: 'none' # No publicar en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.2
+  cupertino_icons: ^1.0.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.11.0 # Añadido para icono de la app
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png" # Cambia por la ruta de tu imagen
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Fondo y botones del menú principal
+    - assets/IMG_MENU_PRINCIPAL_19_19.jpg
+    - assets/fondo_proyector_pared.jpg
+    - assets/FONDO PROYECTOR IMAN.jpg
+    - assets/proyeccion_pared.jpg
+    - assets/proyeccion_iman.jpg
+    - assets/BOTON_VIDEO_PARED.gif
+    - assets/BOTON_VIDEO_IMAN.gif
+    - assets/BOTON IMAGEN IMAN.png
+    - assets/FONDO IMAN VIDEOS.jpg
+    - assets/FONDO PARED VIDEOS.jpg
+
+    - assets/mascara/mascaracircular.png
+
+    # Fondo de la pantalla de fotos
+    - assets/FONDO PARED IMAGENES.jpg
+    - assets/FONDO IMAN IMAGENES.jpg
+
+    - assets/IMAGENES_PARED/ICONO_01_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_02_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_03_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_04_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_05_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_06_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_07_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_08_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_09_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_10_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_11_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_12_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_13_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_14_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_15_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_16_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_17_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_18_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_19_IMG_PAR.png
+    - assets/IMAGENES_PARED/ICONO_20_IMG_PAR.png
+
+    - assets/VIDEOS PARED/ICONO_01_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_02_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_03_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_04_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_05_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_06_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_07_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_08_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_09_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_10_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_11_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_12_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_13_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_14_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_15_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_16_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_17_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_18_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_19_VID_PAR.png
+    - assets/VIDEOS PARED/ICONO_20_VID_PAR.png
